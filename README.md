@@ -1,6 +1,40 @@
 # EyeStrokes
 Eye Strokes System for Recognizing Mandarin Characters
 
+# Detailed Test Procedure
+
+1. Training
+      - a) Brief the participant on the experiment procedure and flow without exposing or explaining to them the GUI and how to use it. 
+      - b) Educate the user on the 2 types of eye gaze inputs that the system accepts which is the eye movement and eye gaze dwelling.
+2. System Setup
+      - a) Laptop and Tobii eye tracker were physically set up and the participant is seated at the correct position
+      - b) Participant’s eye profile is calibrated with the Tobii eye tracker
+3. Testing
+      - a) Task is given and participant proceeds to perform said task
+         - i) Participant is not allowed to ask for help in completing tasks
+         - ii) Participant is free to start and stop working on said task at any point
+      - b) Step a is repeated until all tasks are complete
+4. Survey
+      - a) A short survey is done by the participant with regards to the user experience when performing the tasks
+
+#### There were a total of 3 tasks given to the participants, each with its unique purpose to evaluate certain outcomes. Generally, each tasks’ flow was to have the participant drawing on, undoing or clearing the canvas and then, if the tasked Chinese character appears in the Prediction Buttons, they will trigger the corresponding button to signify the successful completion of the task. In every task, the participant’s and application performance are common outcomes to be evaluated. The Chinese Characters tasked and each of their unique insight to be identified were as follows:
+
+1. User is to draw '一'
+      - a) Evaluate intuitiveness of Start and Prediction Buttons, Canvas, Visual and Audio Cues
+2. User is to draw '十'
+      - a) Evaluate intuitiveness and usefulness of Undo and Clear Buttons
+3. User is to draw '床'
+      - a) Evaluate usefulness of Undo and Clear Buttons
+      - b) Fatigue levels when drawing more complex Chinese Characters
+
+#### Firstly, in Task 1, the expected outcome is that the participant can interact with the application with a fresh lens and successfully complete an easy task that should only require 1 horizontal stroke to achieve the Chinese character '一'. The successful completion of Task 1 would imply that the Start and Prediction Buttons, Canvas, Visual and Audio Cues were intuitive enough to achieve a successful completion of the task.
+
+#### Subsequently, in Task 2, the expected outcome is to observe if the participant would add on 1 vertical stroke to achieve the Chinese character '十' or would they utilise the Undo or Clear buttons to start from scratch. Their choice would imply the intuitiveness and usefulness of Undo and Clear Buttons. Since they are already acquainted with the other elements in the GUI, the focus in subsequent tasks is on evaluating the intuitiveness and usefulness of Undo and Clear Buttons.
+
+#### Lastly, in Task 3, the expected outcome is to observe interactions when tasked with a slightly more complex Chinese character like '床'. The number of uses of the Start, Undo and Clear buttons would indicate the difficulty of such a task. 
+
+#### Besides the purposeful intentions of selecting those particular Chinese characters for the test just discussed, they are also selected from the Final Chinese character pool as they are relatively basic Chinese characters, therefore should keep the tasks simple and quick to complete. 
+
 # Complete Usability Test Survey Questions
 #### Questions posed to participants after completing the 3 tasks
 
