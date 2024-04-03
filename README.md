@@ -53,7 +53,7 @@ Eye Strokes System for Recognizing Mandarin Characters
 |7.1|0|0|0|0|0|0|0|0|0|0|
 |8|after writing the word, it was not obvious what is the next step, which is to confirm the word that i am writing.|Mainly just need more time for all actions|NIL|It wasn't clear to me at the get go that there's a stop/start drawing until a few tries. Could maybe move that instruction to somewhere that is clear, or have it presented to the user upfront.|Don't know what to do after drawing finished|Have a longer draw duration and capture the average area the eye hovers around for more stable drawing?|NIL|NIL|Add a give up button?|Have the choice to choose how long the duration to draw is.|
 
-# Complete Usability Test Participant Logs
+# Complete Usability Test Participant Performance Logs
 #### Programmatically obtained whilst participants are performing the three tasks
 
 | No. | Task | Metric | Participant 1| Participant 2 | Participant 3 | Participant 4 | Participant 5 | Participant 6 | Participant 7 | Participant 8 | Participant 9 | Participant 10 | Total | Average | Standard Deviation |
@@ -71,5 +71,25 @@ Eye Strokes System for Recognizing Mandarin Characters
 |11|3|Undo Button Triggers|2|2|3|1|3|2|1|1|2|2|19|1.9|0.74|
 |12|3|Clear Button Triggers|1|3|2|0|1|2|0|1|1|2|13|1.3|0.95|
 
+# CNN Model Training Function
+
+1. Add a convolutional layer with 32 filters of size 3x3, using ReLU activation
+      - Finds important patterns in the images, enabling the model to capture meaningful features and representations
+2. Add a max pooling layer with a pool size of 2x2
+      - Reduce the size of the patterns found to keep and focus on the most important ones
+3. Add another convolutional layer with 64 filters of size 3x3, using ReLU activation
+      - Find more complex and higher-level patterns using another layer
+4. Add another max pooling layer
+      - Further reduce the pattern size to emphasize the most salient details and important aspects of the data	
+5. Flatten the output of the convolutional layers
+      - Reshapes the multidimensional output from the previous layers into a one-dimensional vector, making it easier to process in the subsequent layers
+6. Add a fully connected layer with 128 units, using ReLU activation
+      - Connect the patterns together to understand their relationships and learn complex patterns and dependencies
+7. Add a Dropout layer with a rate of 0.5
+      - Helps to prevent overfitting by reducing the reliance on specific features to improving model generalization
+8. Add the output layer with the number of classes taken as a parameter, using the SoftMax activation function
+      - Make the final predictions based on the learned patterns and The SoftMax activation function ensures that the predicted probabilities sum up to one, enabling the model to make confident class assignments
+9. Compile the model with the Adam optimizer and the Categorical Cross Entropy loss function
+      - Make the model learn and improve using a combination of well-established and effective techniques
 
 
