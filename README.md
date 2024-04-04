@@ -1,6 +1,29 @@
 # EyeStrokes
 Eye Strokes System for Recognizing Mandarin Characters
 
+# User Stories
+
+1. Eye Profile Calibration
+      - As a user, I would like to be able to sync my eye profile with the eye tracker so that I can use the software application with accurate eye tracking.
+2. Tracking of Eye-Gaze
+      - As a user, I would like my eye-gaze to be tracked accurately when I move my eyes around the screen so that I can interact with the application.
+3. Tracking of Eye-Dwelling
+      - As a user, I would like my eye-gaze to be tracked accurately when I keep my eyes on a certain area on the screen so that I can interact with the application.
+4. Eye-Gaze Indicator
+      - As a user, I would like to see a visual indicator on the screen to be able to know where I am gazing.
+5. Drawing of intended Mandarin Character
+      - As a user, I would like to be able to draw strokes on the application with my eye gaze to get closer to conveying my intended Mandarin Character to the nurses.
+6. Fix mistakes or bad strokes
+      - As a user, I would like to be able to go back and redo the previous stroke or restart from scratch when I make a mistake so that I can get closer to getting a better prediction for my intended Mandarin Character for the nurses.
+7. Prediction of intended Mandarin Character
+      - As a user, I would like to be able to receive predictions of my intended Mandarin Character to be able to narrow down and choose my actual intended Mandarin Character for the nurses.
+8. Confirm Intended Mandarin Character
+      - As a user, I would like to be able to confirm the Mandarin Character to let the nurse know that it is my intended Mandarin Character.
+9. Identify Intended Mandarin Character
+      - As a nurse, I would like to be able to tell what Mandarin Character the patient has chosen after they are done drawing and confirming their Mandarin Character.
+10. Knowing the current state of the application
+      - As a user, I would like to be able to tell what is happening at any point of time in the application so that I won’t be confused or lost while using the application.
+
 # Detailed Test Procedure
 
 1. Training
