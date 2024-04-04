@@ -41,32 +41,64 @@ Eye Strokes System for Recognizing Mandarin Characters
 1. Task Difficulty:
    
     1.1. How demanding/difficult was Task 1?
-
+      - Easy
+      - Neutral
+      - Hard
+        
     1.2. How demanding/difficult was Task 2?
-
+      - Easy
+      - Neutral
+      - Hard
+        
     1.3. How demanding/difficult was Task 3?
+      - Easy
+      - Neutral
+      - Hard
 
 2. How intuitive was the Graphical User Interface (GUI) to navigate and use?
+      - Intuitive
+      - Neutral
+      - Counterintuitive
 
 3. How satisfied were you with the Overall User Experience?
+      - Satisfied
+      - Neutral
+      - Dissatisfied
 
 4. How often did you accidentally trigger a button?
+      - Frequently
+      - Rarely
+      - Never
 
 5. How often did you fail to trigger a button?
+      - Frequently
+      - Rarely
+      - Never
 
     5.1 Should the button dwell duration be changed? (x=0: Keep current duration, x>0: Increase by x seconds, x<0: Decrease by x seconds)
+      - (Open-Ended, provide an approximate duration value)
 
     5.2 Should the button sizes be changed? (x=0: Keep current size, x>0: Increase by x%, x<0: Decrease by x%)
+      - (Open-Ended, provide an approximate percentage value)
 
 6. How difficult was it to draw what you intended?
+      - Easy
+      - Neutral
+      - Hard
    
     6.1 Should the drawing duration be changed? (x=0: Keep current duration, x>0: Increase by x seconds, x<0: Decrease by x seconds)
+      - (Open-Ended, provide an approximate duration value)
 
 7. How often did you find yourself leaving the canvas by accident? (During drawing) (e.g., Eye-gaze distracted or twitched)
+      - Frequently
+      - Rarely
+      - Never
 
      7.1 Should the canvas size be changed? (x=0: Keep current size, x>0: Increase by x%, x<0: Decrease by x%)
+      - (Open-Ended, provide an approximate percentage value)
 
 8. Are there any improvements/suggestions you would like to give?
+      - (Open-Ended, optional to provide a suggestion)
 
 # Complete Usability Test Survey Answers
 
